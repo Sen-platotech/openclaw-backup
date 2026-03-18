@@ -1,6 +1,6 @@
 ---
 name: openclaw-backup
-description: Backup and restore OpenClaw data to external storage for macOS and Windows. Use when user wants to (1) backup OpenClaw workspace, agents, memory, and configuration to an external drive, (2) migrate OpenClaw to a new computer on macOS or Windows, (3) create a portable backup of all OpenClaw data including conversation history and personal configuration, (4) restore OpenClaw data on a different operating system.
+description: Cross-platform backup and restore tool for OpenClaw data. Supports macOS, Linux, and Windows with one-click restore scripts.
 ---
 
 # OpenClaw Backup Skill
