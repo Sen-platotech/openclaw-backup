@@ -5,6 +5,12 @@
   <b>OpenClaw 数据跨平台备份与恢复工具</b>
 </p>
 
+> **💬 快速使用 / Quick Start:**
+> 
+> **安装：**`安装 sen-openclaw-backup skill`
+> 
+> **备份：**`备份 OpenClaw 数据到桌面，快速备份（不含 skills，约 100MB）或完整备份（含 skills，约 500MB+），并设置每周自动备份`
+
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
@@ -97,16 +103,16 @@ scripts\restore-windows.bat D:\backup.tar.gz
 
 | Content / 内容 | Description / 描述 | Optional / 可选 |
 |---------------|-------------------|----------------|
-| `workspace/` | Project files, memory files, configurations / 项目文件、记忆文件、配置 | ❌ No / 否 |
-| `agents/` | Conversation history and sessions / 对话历史和会话 | ❌ No / 否 |
-| `memory/` | Long-term memory embeddings / 长期记忆嵌入 | ❌ No / 否 |
-| `credentials/` | Encrypted credentials / 加密凭证 | ❌ No / 否 |
-| `openclaw.json` | Main configuration file / 主配置文件 | ❌ No / 否 |
+| `workspace/` | Project files, memory files, configurations / 项目文件、记忆文件、配置 | ✅ Yes / 是 |
+| `agents/` | Conversation history and sessions / 对话历史和会话 | ✅ Yes / 是 |
+| `memory/` | Long-term memory embeddings / 长期记忆嵌入 | ✅ Yes / 是 |
+| `credentials/` | Encrypted credentials / 加密凭证 | ✅ Yes / 是 |
+| `openclaw.json` | Main configuration file / 主配置文件 | ✅ Yes / 是 |
 | `skills/` | Installed skills (~1.5GB) / 已安装技能（约1.5GB） | ✅ Yes / 是 |
 
 **Note / 说明:**
-- **Quick Backup / 快速备份**: Excludes skills (can be re-downloaded) / 不包含技能（可重新下载）
-- **Full Backup / 完整备份**: Includes everything for offline use / 包含所有内容，可离线使用
+- **Quick Backup / 快速备份**: Excludes skills (~100MB, skills can be re-downloaded via `clawhub sync`) / 不包含技能（约100MB，可通过 `clawhub sync` 重新下载）
+- **Full Backup / 完整备份**: Includes everything including skills (~500MB+) for offline use / 包含所有内容包括技能（约500MB+），可离线使用
 
 ---
 
