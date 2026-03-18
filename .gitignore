@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Backup files (don't commit actual backups)
+*.tar.gz
+*.zip
+
+# Temporary files
+*.tmp
+*.temp
