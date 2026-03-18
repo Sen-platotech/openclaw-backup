@@ -1,5 +1,5 @@
 ---
-name: openclaw-backup
+name: sen-openclaw-backup
 description: Cross-platform backup and restore tool for OpenClaw data. Supports macOS, Linux, and Windows with one-click restore scripts.
 ---
 
