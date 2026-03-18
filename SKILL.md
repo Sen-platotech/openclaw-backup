@@ -1,6 +1,6 @@
 ---
 name: sen-openclaw-backup
-description: Cross-platform backup and restore tool for OpenClaw data. Supports macOS, Linux, and Windows with one-click restore scripts. Now includes portable ZIP package with all recovery tools.
+description: Cross-platform backup and restore tool for OpenClaw data. Supports macOS, Linux, and Windows with one-click restore scripts.
 version: 1.1.0
 ---
 
