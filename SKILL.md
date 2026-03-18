@@ -1,6 +1,7 @@
 ---
 name: sen-openclaw-backup
-description: Cross-platform backup and restore tool for OpenClaw data. Supports macOS, Linux, and Windows with one-click restore scripts.
+description: Cross-platform backup and restore tool for OpenClaw data. Supports macOS, Linux, and Windows with one-click restore scripts. Now includes portable ZIP package with all recovery tools.
+version: 1.1.0
 ---
 
 # OpenClaw Backup Skill
@@ -139,6 +140,26 @@ npm install -g openclaw@latest
 # 3. Start Gateway
 openclaw gateway start
 ```
+
+## Portable Package / 便携包
+
+For easy migration, use the portable ZIP package which includes:
+- Data backup file
+- One-click restore scripts for macOS and Windows
+- Command-line backup/restore scripts
+- Skill installation package
+
+## Changelog
+
+### v1.1.0
+- Added portable ZIP package creation
+- Improved Windows batch scripts
+- Added bilingual README
+
+### v1.0.0
+- Initial release
+- Cross-platform backup and restore
+- One-click restore scripts
 
 ## Notes
 
