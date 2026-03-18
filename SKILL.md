@@ -1,10 +1,18 @@
 ---
 name: sen-openclaw-backup
-description: Cross-platform backup and restore tool for OpenClaw data. Supports macOS, Linux, and Windows with one-click restore scripts.
-version: 1.1.0
+description: Backup OpenClaw data to desktop - quick backup (without skills, ~100MB) or full backup (with skills, ~500MB+). Supports scheduled automatic backups.
+version: 1.1.1
 ---
 
 # OpenClaw Backup Skill
+
+> **快速使用 / Quick Start:**
+> 
+> 安装：`安装 sen-openclaw-backup skill`
+> 
+> 备份：`备份 OpenClaw 数据到桌面，快速备份（不含 skills，约 100MB）或完整备份（含 skills，约 500MB+），并设置每周自动备份`
+
+---
 
 Backup and restore all OpenClaw data for migration or safekeeping.
 
